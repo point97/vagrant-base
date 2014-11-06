@@ -40,7 +40,7 @@ if [ ! -e "$HOME/.sudo_as_admin_successful" ] && [ ! -e "$HOME/.hushlogin" ] ; t
 	cat <<-EOF
 	To run a command as administrator (user "root"), use "sudo <command>".
 	See "man sudo_root" for details.
-	
+
 	EOF
     fi
     esac
@@ -63,6 +63,6 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-no
 	}
 fi
 
-export LANGUAGE=en_GB.UTF-8
-export LANG=en_GB.UTF-8
-export LC_ALL=en_GB.UTF-8
+export LANGUAGE=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
