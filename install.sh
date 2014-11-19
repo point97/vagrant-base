@@ -29,6 +29,9 @@ apt-get install -y libjpeg-dev libtiff-dev zlib1g-dev libfreetype6-dev liblcms2-
 # Geo
 apt-get install -y python-gdal
 
+# Node
+apt-get install -y nodejs npm
+
 # Redis
 apt-get install -y redis-server
 
